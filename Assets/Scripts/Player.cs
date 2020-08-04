@@ -32,6 +32,7 @@ public class Player : MonoBehaviour
         sp= GetComponent<SphereCollider>();
         //camera= GetComponent<Camera>();
     }
+  
     void OnCollisionEnter(Collision collision)
     {
        
@@ -47,7 +48,7 @@ public class Player : MonoBehaviour
         }
 
     }
-    // Update is called once per frame
+    // Update is called once per 
     IEnumerator WaitRaiseHealthFlag(int time)
     {
         yield return new WaitForSeconds(time);
