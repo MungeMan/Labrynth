@@ -48,7 +48,7 @@ public class Player : MonoBehaviour
         }
 
     }
-    // Update is called 
+    // Update is called once per 
     IEnumerator WaitRaiseHealthFlag(int time)
     {
         yield return new WaitForSeconds(time);
